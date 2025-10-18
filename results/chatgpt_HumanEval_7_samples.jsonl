@@ -1,0 +1,5 @@
+{"task_id": "HumanEval/7", "completion": "    return [s for s in strings if substring in s]"}
+{"task_id": "HumanEval/7", "completion": "    result = []\n    for s in strings:\n        if substring in s:\n            result.append(s)\n    return result"}
+{"task_id": "HumanEval/7", "completion": "    return list(filter(lambda s: substring in s, strings))"}
+{"task_id": "HumanEval/7", "completion": "    if not strings:\n        return []    \n    first, rest = strings[0], strings[1:]\n    if substring in first:\n        return [first] + filter_by_substring(rest, substring)\n    else:\n        return filter_by_substring(rest, substring)"}
+{"task_id": "HumanEval/7", "completion": "from functools import reduce\n    return reduce(\n        lambda acc, s: acc + [s] if substring in s else acc,\n        strings,\n        []\n    )"}

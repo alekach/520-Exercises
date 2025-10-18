@@ -1,0 +1,14 @@
+[
+    {
+        "sample_id": "sample3.py",
+        "error": "failed:   File \"C:\\Users\\ajlms\\AppData\\Local\\Temp\\tmpi2xoaumt.py\", line 15\n    return any(balance < 0 for balance in accumulate(operations))\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nSyntaxError: 'return' outside function\n"
+    },
+    {
+        "sample_id": "sample4.py",
+        "error": "failed: Traceback (most recent call last):\n  File \"C:\\Users\\ajlms\\AppData\\Local\\Temp\\tmpmp605po_.py\", line 35, in <module>\n    check(below_zero)\n  File \"C:\\Users\\ajlms\\AppData\\Local\\Temp\\tmpmp605po_.py\", line 30, in check\n    assert candidate([1, 2, -4, 5, 6]) == True\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+        "sample_id": "sample5.py",
+        "error": "failed:   File \"C:\\Users\\ajlms\\AppData\\Local\\Temp\\tmp60bd7a5b.py\", line 14\n    return min(accumulate(operations), default=0) < 0\nIndentationError: unexpected indent\n"
+    }
+]

@@ -1,0 +1,5 @@
+{"task_id": "HumanEval/3", "completion": "    balance = 0\n    for op in operations:\n        balance += op\n        if balance < 0:\n            return True\n    return False"}
+{"task_id": "HumanEval/3", "completion": "    balance = 0\n    for op in operations:\n        balance += op\n        if balance < 0:\n            return True\n    return False"}
+{"task_id": "HumanEval/3", "completion": "from typing import List\nfrom itertools import accumulate\nreturn any(balance < 0 for balance in accumulate(operations))"}
+{"task_id": "HumanEval/3", "completion": "    balance = 0\n    for i in range(len(operations)):\n        balance += sum(operations[:i+1])\n        if balance < 0:\n            return True\n    return False"}
+{"task_id": "HumanEval/3", "completion": "from itertools import accumulate\n    return min(accumulate(operations), default=0) < 0"}

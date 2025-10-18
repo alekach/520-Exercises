@@ -1,0 +1,1 @@
+    return list(filter(lambda s: substring in s, strings))

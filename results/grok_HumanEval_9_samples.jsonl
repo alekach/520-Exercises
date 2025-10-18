@@ -1,0 +1,5 @@
+{"task_id": "HumanEval/9", "completion": "    result = []\n    current_max = float('-inf')\n    for num in numbers:\n        current_max = max(current_max, num)\n        result.append(current_max)\n    return result"}
+{"task_id": "HumanEval/9", "completion": "    if not numbers:\n        return []\n    result = [numbers[0]]\n    current_max = numbers[0]\n    for num in numbers[1:]:\n        current_max = max(current_max, num)\n        result.append(current_max)\n    return result"}
+{"task_id": "HumanEval/9", "completion": "    import itertools\n    return list(itertools.accumulate(numbers, max)) if numbers else []"}
+{"task_id": "HumanEval/9", "completion": "    return [max(numbers[:i+1]) for i in range(len(numbers))]"}
+{"task_id": "HumanEval/9", "completion": "    if not numbers:\n        return []\n    result = [numbers[0]]\n    current_max = numbers[0]\n    i = 1\n    while i < len(numbers):\n        current_max = max(current_max, numbers[i])\n        result.append(current_max)\n        i += 1\n    return result"}

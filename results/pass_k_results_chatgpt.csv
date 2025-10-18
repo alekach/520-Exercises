@@ -1,0 +1,11 @@
+model,task_id,pass@1,pass@5
+chatgpt,HumanEval_0,1.0,0.6
+chatgpt,HumanEval_1,1.0,0.8
+chatgpt,HumanEval_2,1.0,1.0
+chatgpt,HumanEval_3,1.0,0.6
+chatgpt,HumanEval_4,1.0,0.6
+chatgpt,HumanEval_5,1.0,0.6
+chatgpt,HumanEval_6,1.0,0.6
+chatgpt,HumanEval_7,1.0,0.8
+chatgpt,HumanEval_8,1.0,0.4
+chatgpt,HumanEval_9,1.0,0.8

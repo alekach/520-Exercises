@@ -1,0 +1,6 @@
+[
+    {
+        "sample_id": "sample5.py",
+        "error": "failed:   File \"C:\\Users\\ajlms\\AppData\\Local\\Temp\\tmpguxhw0a4.py\", line 12\n    return reduce(\nIndentationError: unexpected indent\n"
+    }
+]

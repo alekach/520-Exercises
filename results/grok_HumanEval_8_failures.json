@@ -1,0 +1,14 @@
+[
+    {
+        "sample_id": "sample3.py",
+        "error": "failed:   File \"C:\\Users\\ajlms\\AppData\\Local\\Temp\\tmpkf8di5a1.py\", line 13\n    return sum(numbers), math.prod(numbers)\nIndentationError: unexpected indent\n"
+    },
+    {
+        "sample_id": "sample4.py",
+        "error": "failed:   File \"C:\\Users\\ajlms\\AppData\\Local\\Temp\\tmpuy786bn5.py\", line 14\n    return reduce(add, numbers, 0), reduce(mul, numbers, 1)\nIndentationError: unexpected indent\n"
+    },
+    {
+        "sample_id": "sample5.py",
+        "error": "failed:   File \"C:\\Users\\ajlms\\AppData\\Local\\Temp\\tmppaxncjsf.py\", line 13\n    return reduce(lambda acc, x: (acc[0] + x, acc[1] * x), numbers, (0, 1))\nIndentationError: unexpected indent\n"
+    }
+]

@@ -1,0 +1,5 @@
+{"task_id": "HumanEval/7", "completion": "    result = []\n    for s in strings:\n        if substring in s:\n            result.append(s)\n    return result"}
+{"task_id": "HumanEval/7", "completion": "    return [s for s in strings if substring in s]"}
+{"task_id": "HumanEval/7", "completion": "    return list(filter(lambda s: substring in s, strings))"}
+{"task_id": "HumanEval/7", "completion": "    result = []\n    for s in strings:\n        if s.find(substring) != -1:\n            result.append(s)\n    return result"}
+{"task_id": "HumanEval/7", "completion": "    return [s for s in strings if s.find(substring) != -1]"}

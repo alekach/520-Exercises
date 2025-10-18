@@ -1,0 +1,10 @@
+[
+    {
+        "sample_id": "sample2.py",
+        "error": "failed:   File \"C:\\Users\\ajlms\\AppData\\Local\\Temp\\tmplwahzy83.py\", line 14\n    return any(balance < 0 for balance in accumulate(operations))\nIndentationError: unexpected indent\n"
+    },
+    {
+        "sample_id": "sample5.py",
+        "error": "failed: Traceback (most recent call last):\n  File \"C:\\Users\\ajlms\\AppData\\Local\\Temp\\tmpi9412dv4.py\", line 37, in <module>\n    check(below_zero)\n  File \"C:\\Users\\ajlms\\AppData\\Local\\Temp\\tmpi9412dv4.py\", line 30, in check\n    assert candidate([]) == False\n           ^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    }
+]

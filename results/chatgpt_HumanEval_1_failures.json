@@ -1,0 +1,6 @@
+[
+    {
+        "sample_id": "sample5.py",
+        "error": "failed: Traceback (most recent call last):\n  File \"C:\\Users\\ajlms\\AppData\\Local\\Temp\\tmp7vxoxjyt.py\", line 51, in <module>\n    check(separate_paren_groups)\n  File \"C:\\Users\\ajlms\\AppData\\Local\\Temp\\tmp7vxoxjyt.py\", line 40, in check\n    assert candidate('(()()) ((())) () ((())()())') == [\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    }
+]

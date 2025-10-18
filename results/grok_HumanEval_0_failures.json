@@ -1,0 +1,6 @@
+[
+    {
+        "sample_id": "sample3.py",
+        "error": "failed:   File \"C:\\Users\\ajlms\\AppData\\Local\\Temp\\tmp015hyt2h.py\", line 13\n    for a, b in itertools.combinations(numbers, 2):\nIndentationError: unexpected indent\n"
+    }
+]

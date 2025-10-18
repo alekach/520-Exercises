@@ -1,0 +1,5 @@
+{"task_id": "HumanEval/2", "completion": "    return number - int(number)"}
+{"task_id": "HumanEval/2", "completion": "    return number % 1"}
+{"task_id": "HumanEval/2", "completion": "    return number % 1"}
+{"task_id": "HumanEval/2", "completion": "    return number % 1"}
+{"task_id": "HumanEval/2", "completion": "    return number - int(number)"}

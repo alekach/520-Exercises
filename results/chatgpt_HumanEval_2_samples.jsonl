@@ -1,0 +1,5 @@
+{"task_id": "HumanEval/2", "completion": "    integer_part = int(number)\n    decimal_part = number - integer_part\n    return decimal_part"}
+{"task_id": "HumanEval/2", "completion": "    integer_part = int(number)\n    decimal_part = number - integer_part\n    return decimal_part"}
+{"task_id": "HumanEval/2", "completion": "    integer_part = int(number)\n    decimal_part = number - integer_part\n    return decimal_part\n"}
+{"task_id": "HumanEval/2", "completion": "    integer_part = int(number)\n    decimal_part = number - integer_part\n    return decimal_part"}
+{"task_id": "HumanEval/2", "completion": "    integer_part = int(number)\n    decimal_part = number - integer_part\n    return decimal_part"}

@@ -1,0 +1,11 @@
+model,task_id,pass@1,pass@5
+grok,HumanEval_0,1.0,0.8
+grok,HumanEval_1,1.0,1.0
+grok,HumanEval_2,1.0,1.0
+grok,HumanEval_3,1.0,0.4
+grok,HumanEval_4,1.0,0.8
+grok,HumanEval_5,1.0,1.0
+grok,HumanEval_6,1.0,0.8
+grok,HumanEval_7,1.0,1.0
+grok,HumanEval_8,1.0,0.4
+grok,HumanEval_9,1.0,1.0

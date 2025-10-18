@@ -1,0 +1,8 @@
+    if not numbers:
+        return []
+    result = [numbers[0]]
+    current_max = numbers[0]
+    for num in numbers[1:]:
+        current_max = max(current_max, num)
+        result.append(current_max)
+    return result

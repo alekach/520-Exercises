@@ -1,0 +1,5 @@
+{"task_id": "HumanEval/8", "completion": "    if not numbers:\n        return (0, 1)\n    total_sum = sum(numbers)\n    total_product = 1\n    for num in numbers:\n        total_product *= num\n    return (total_sum, total_product)"}
+{"task_id": "HumanEval/8", "completion": "import math\n    total_sum = sum(numbers)\n    total_product = math.prod(numbers) if numbers else 1\n    return (total_sum, total_product)"}
+{"task_id": "HumanEval/8", "completion": "from functools import reduce\nimport operator\n    total_sum = sum(numbers)\n    if not numbers:\n        total_product = 1\n    else:\n        total_product = reduce(operator.mul, numbers, 1)\n    return (total_sum, total_product)"}
+{"task_id": "HumanEval/8", "completion": "    total_sum = 0\n    total_product = 1\n    for num in numbers:\n        total_sum += num\n        total_product *= num\n    return (total_sum, total_product)"}
+{"task_id": "HumanEval/8", "completion": "import math\n    nums = [num for num in numbers]\n    total_sum = sum(nums)\n    total_product = math.prod(nums) if nums else 1\n    return (total_sum, total_product)"}
