@@ -25,5 +25,14 @@
   "tests/test_HumanEval_3_chatgpt_sample5.py::test_check": true,
   "tests/test_HumanEval_4_chatgpt_sample5.py::test_check": true,
   "seeded_tests/test_HumanEval_0_chatgpt_sample1.py::test_check": true,
-  "seeded_tests/test_HumanEval_4_grok_sample2.py::test_empty_list": true
+  "seeded_tests/test_HumanEval_4_grok_sample2.py::test_empty_list": true,
+  "spec-guided_tests/test_HumanEval_0_chatgpt_sample1.py::test_has_close_elements_direct[numbers3-0.9-True]": true,
+  "spec-guided_tests/test_HumanEval_0_chatgpt_sample1.py::test_has_close_elements_direct[numbers4-1.0-True]": true,
+  "spec-guided_tests/test_HumanEval_0_chatgpt_sample1.py::test_has_close_elements_direct[numbers7-0.0-True]": true,
+  "spec-guided_tests/test_HumanEval_0_chatgpt_sample1.py::test_has_close_elements_direct[numbers10-1.0-True]": true,
+  "spec-guided_tests/test_HumanEval_0_chatgpt_sample1.py::test_has_close_elements_direct[numbers12-0.0-True]": true,
+  "spec-guided_tests/test_HumanEval_0_chatgpt_sample1.py::test_has_close_elements_direct[numbers15-1e-10-False]": true,
+  "spec-guided_tests/test_HumanEval_0_chatgpt_sample1.py::test_specification_2_and_3_min_pairwise_distance": true,
+  "spec-guided_tests/test_HumanEval_0_chatgpt_sample1.py::test_specification_4_sorted_consecutive_equivalence": true,
+  "spec-guided_tests/test_HumanEval_4_grok_sample2.py::test_translation_invariance": true
 }
